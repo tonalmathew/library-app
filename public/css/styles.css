@@ -1,0 +1,41 @@
+.cont-one {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgb(251, 251, 251);
+    height: 90%;
+    width: 80%px;
+    box-shadow: 0 4px 8px 0 rgba(204, 204, 204, 0.694), 0 6px 20px 0 rgba(204, 204, 204, 0.694);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.home-content {
+    padding: 20px;
+    text-align: justify;
+    font-weight: 400;
+    font-size: larger;
+}
+
+.home-heading {
+    margin-bottom: 40px;
+}
+
+.container-card {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.card1 {
+    padding: 20px;
+}
+
+.books-content {
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    .auth-card {
+        text-align: center;
+    }
+}
