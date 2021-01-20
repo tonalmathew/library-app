@@ -4,12 +4,17 @@
     "description": "ict assignment2",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "start": "nodemon app.js"
     },
     "author": "",
     "license": "ISC",
     "dependencies": {
+        "dotenv": "^8.2.0",
         "ejs": "^3.1.5",
-        "express": "^4.17.1"
+        "express": "^4.17.1",
+        "mongoose": "^5.11.12"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
     }
 }
